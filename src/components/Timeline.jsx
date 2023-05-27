@@ -39,7 +39,7 @@ const TimelineSection = (
             </div>
             {displayChild ? child : <div/>}
         </div>
-        <div id={sectionId} ref={sectionRef} className="timeline lg:h-[300px] md:h-[370px] sm:h-[450px] xs:h-[520px] h-[600px]" />
+        <div id={sectionId} ref={sectionRef} className="timeline lg:h-[300px] md:h-[370px] sm:h-[450px] xs:h-[520px] h-[700px]" />
     </>
 )
 
