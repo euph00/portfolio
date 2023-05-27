@@ -12,8 +12,9 @@ const ServiceCard = ({
   title,
   icon
 }) => {
+  const mediaQuery = window.matchMedia("(max-width: 500px)");
   return (
-    <Tilt className='xs:w-[250px] w-full'>
+    <Tilt className='xs:w-[250px] w-full' tiltEnable={!mediaQuery.matches}>
       <motion.div 
         variants={fadeIn('right', 'spring', 0.3 * index, 0.75)}
         initial='hidden'
