@@ -58,7 +58,6 @@ const PlanetsCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
-          enableRotate={!isMobile}
           autoRotate
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
