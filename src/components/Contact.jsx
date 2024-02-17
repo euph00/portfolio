@@ -44,7 +44,7 @@ const Contact = () => {
             src={twitter} 
             alt="twitter" 
             className='w-1/2 h-1/2 object-contain'
-            onClick={() => window.open('https://twitter.com/y0_soro', '_blank')}
+            onClick={() => window.open('https://twitter.com/e_uph00', '_blank')}
           />
         </div>
 

@@ -48,6 +48,7 @@ const Timeline = ({ setObserver, callback }) => {
     const [showMessage2, setShowMessage2] = useState(false);
     const [showMessage3, setShowMessage3] = useState(false);
     const [showMessage4, setShowMessage4] = useState(false);
+    const [showMessage5, setShowMessage5] = useState(false);
 
   
     const section0 = useRef(null);
@@ -55,12 +56,13 @@ const Timeline = ({ setObserver, callback }) => {
     const section2 = useRef(null);
     const section3 = useRef(null);
     const section4 = useRef(null);
+    const section5 = useRef(null);
 
     const event1 = useRef(null);
     const event2 = useRef(null);
     const event3 = useRef(null);
     const event4 = useRef(null);
-
+    const event5 = useRef(null);
   
     const showEvent1 = () => {
       setShowMessage1(true);
@@ -77,7 +79,11 @@ const Timeline = ({ setObserver, callback }) => {
 
     const showEvent4 = () => {
         setShowMessage4(true);
-      };
+    };
+
+    const showEvent5 = () => {
+        setShowMessage5(true);
+    };
   
     useEffect(() => {
       setObserver(section0.current);
@@ -85,11 +91,13 @@ const Timeline = ({ setObserver, callback }) => {
       setObserver(section2.current);
       setObserver(section3.current);
       setObserver(section4.current);
+      setObserver(section5.current);
 
       setObserver(event1.current, showEvent1);
       setObserver(event2.current, showEvent2);
       setObserver(event3.current, showEvent3);
       setObserver(event4.current, showEvent4);
+      setObserver(event5.current, showEvent5);
 
     }, []);
   
@@ -105,6 +113,9 @@ const Timeline = ({ setObserver, callback }) => {
                 {TimelineSection('section3', section3, 'event3', event3, TimelineCard(experiences[2].title, experiences[2].body, experiences[2].date), showMessage3)}
 
                 {TimelineSection('section4', section4, 'event4', event4, TimelineCard(experiences[3].title, experiences[3].body, experiences[3].date), showMessage4)}
+
+                {TimelineSection('section5', section5, 'event5', event5, TimelineCard(experiences[4].title, experiences[4].body, experiences[4].date), showMessage5)}
+
 
             </div>
             

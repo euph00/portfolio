@@ -50,13 +50,15 @@ const About = () => {
       whileInView="show">
         I'm a competent software developer and tech enthusiast, interested in
         <span className='text-[#1b95e0]'> information security, algorithm design, artificial intelligence </span>
-        and more. I have experience in various languages such as 
-        <span className='text-[#1b95e0]'> Java,  C, Python, Typescript/Javascript and Dart</span>, 
+        and more. On the theory side, I have been studying cryptography and interactive proofs. 
+        On the practical side, I have experience in various languages such as 
+        <span className='text-[#1b95e0]'> Java,  C, Python, Typescript and Dart</span>, 
         and am familiar with various frameworks and libraries in these languages.
         <br></br><br></br>
         As an undergraduate at the School of Computing in National University of Singapore, 
         I am enjoying exploring various fields within computer science through coursework 
-        and interacting with like-minded peers.
+        and interacting with like-minded peers. I am also a teaching assistant for a 
+        <span className='text-[#1b95e0]'> software engineering</span> module, in charge of conducting weekly tutorials.
         <br></br><br></br>
         {/* <span className='text-[#1b95e0]'> I look forward to learning something from you too!</span> */}
       </motion.p>

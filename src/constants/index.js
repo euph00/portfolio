@@ -121,7 +121,7 @@ import {
     {
       title: "Summer Internship - DSTA",
       date: "June 2018",
-      body: "During the June holidays of my 6th year at Dunman High School (JC2), I applied and was selected for a tech exposure internship at the Defense Science and Technology Agency. This was my first formal introduction to the tech sector, during which I was introduced to fundamental techniques in Natural Language Processing. This was the beginning of my interest in the tech sector and is the reason I applied to NUS School of Computing."
+      body: "During the June holidays of my 6th year at Dunman High School (JC2), I applied and was selected for a tech exposure internship at the Defense Science and Technology Agency. This was my first formal introduction to the tech sector, during which I was introduced to fundamental techniques in Natural Language Processing. This was the beginning of my interest in tech and is the reason I applied to NUS School of Computing."
     },
     {
       title: "National Service",
@@ -137,6 +137,11 @@ import {
       title: "Undergraduate Year 2",
       date: "August 2022 to July 2023",
       body: "In my second year, I had greater liberty to explore computer science in breadth. I particularly liked Algorithms Design and Analysis (CS3230), the continuation of CS2040 I took the previous year. I also found an interest in Operating Systems (CS2106) and Information Security (CS2107). Although the CTF-styled assignments in CS2107 were challenging, I found them to be refreshing as they were different from any other module I had taken. This also sparked my interest in going deeper into cryptography."
+    },
+    {
+      title: "Undergraduate Year 3",
+      date: "August 2022 to July 2023",
+      body: "While continuing to increase the breadth of my exposure, I found success in cybersecurity for both theory and practice. Doing classes such as Cryptography Theory and Practice (CS4236), Computer Security (CS3235) and Foundations of Modern Cryptography (CS4230), I gained confidence in both practical aspects such as vulnerability analysis and theoretical aspects such as interactive proofs and security reductions."
     },
   ];
   
